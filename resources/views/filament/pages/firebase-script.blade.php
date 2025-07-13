@@ -4,13 +4,13 @@
     import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging.js";
 
     const firebaseConfig = {
-        apiKey: "AIzaSyD5HgY2bI9Y9MFwLWsBHTiExwDkf7pZM6k",
-        authDomain: "talaa-2bd5f.firebaseapp.com",
-        projectId: "talaa-2bd5f",
-        storageBucket: "talaa-2bd5f.firebasestorage.app",
-        messagingSenderId: "996327384646",
-        appId: "1:996327384646:web:ac61584d89e06684fccc47",
-        vapidKey: "BJ6e7A28LAEgpImnx9kTvvPVX7GGQ78Qub_A-pI_WO6pbKjXwYGdIp-PV7E804PJ42xiTEE84cn_asPoSl1ohjo",
+        apiKey: "AIzaSyB-WxMi7PUslnL09H6DZczK6mUSbUzwMcM",
+        authDomain: "russian-honey-42c45.firebaseapp.com",
+        projectId: "russian-honey-42c45",
+        storageBucket: "russian-honey-42c45.firebasestorage.app",
+        messagingSenderId: "414953360568",
+        appId: "1:414953360568:web:dfb38ae6e5b0b2334bf84d",
+        vapidKey: "BD6I5-oGpzYDAX_kLdRoYCUxCUP2c6NchK-UAW2A6RnpVSEKigsq2lI2LT9QiTmq74guLj6sUkivjkmM_MDs2_o",
     };
 
     const app = initializeApp(firebaseConfig);
@@ -40,7 +40,7 @@
             text:  `{{ __("message.You have a new order") }}`,
             icon: 'success',
             confirmButtonText: '{{ __("message.View Orders") }}',
-            confirmButtonColor: '#22C55E',
+            confirmButtonColor: '#F4B700',
             showCancelButton: true,
             cancelButtonText: '{{ __("message.Close") }}',
             cancelButtonColor: '#FAFAFA',

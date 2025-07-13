@@ -32,7 +32,7 @@ class AdminPanelProvider extends PanelProvider
             ->path('admin')
             ->login()
             ->colors([
-                'primary' => Color::Green,
+                'primary' => Color::Yellow,
                 'secondary' => Color::Gray,
                 'info' => Color::Cyan,
                 'success' => Color::Green,
@@ -78,10 +78,11 @@ class AdminPanelProvider extends PanelProvider
             ->globalSearch(false)
             ->brandLogo(asset('assets/img/logo.png'))
             ->brandLogoHeight("70px")
+            ->favicon('assets/img/logo.png')
             ->renderHook(
                 'panels::body.start',
                 fn() => view('filament.pages.firebase-script')
             )
-            ->brandName(fn() => __('message.Talaa'));
+            ->brandName(fn() => __('message.Russian Honey'));
     }
 }

@@ -344,5 +344,5 @@ return [
     'Order Already Delivered' => 'Order Already Delivered',
     'Invalid Status Change' => 'Invalid Status Change',
     'Invalid Status' => 'Invalid Status',
-    'Talaa' => 'Talaa',
+    'Russian Honey' => 'Russian Honey',
 ];
